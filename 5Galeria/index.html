@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+    <div id="Fondo" class="d-flex flex-column min-vh-100">
+
+        <header class="container-fluid p-0">
+            <div class="row m-0">
+
+                <div id="color"
+                    class="col-8 col-md-8 col-lg-8 text-center text-white d-flex flex-column justify-content-center align-items-center">
+
+                    <h1>Semillero Tangamandapio</h1>
+                    <ul>Sembrando código, cosechando innovación</ul>
+
+                </div>
+                <div id="color"
+                    class="col-4 col-md-4 col-lg-4 text-center d-flex align-items-center justify-content-center">
+
+                    <img class="img-fluid" src="./img/Logo del semillero Tangamandapio.png" alt="Logo del semillero">
+                </div>
+
+                <nav id="colornav" class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <a class="navbar-brand text-white"
+                            href="http://127.0.0.1:5500/Semillero/index.html">Inicio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page"
+                                        href="http://127.0.0.1:5500/Semillero/2Eventos/index.html">Eventos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="http://127.0.0.1:5500/Semillero/3Equipo/index.html">Equipo</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="http://127.0.0.1:5500/Semillero/4Producto/index.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="http://127.0.0.1:5500/Semillero/5Galeria/index.html">Galería</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="http://127.0.0.1:5500/Semillero/6Contactos/index.html">Contactos</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+        </header>
+
+        <main class="container-fluid">
+            <div class="row justify-content-center">
+
+                <!-- TÍTULO -->
+                <div class="text-center mb-4 text-white">
+                    <h3>Galería de Imágenes</h3>
+                    <p class="text-white">Momentos y actividades del semillero</p>
+                </div>
+
+                <section class="row justify-content-center mb-4">
+
+                    <!-- GRID DE IMÁGENES -->
+                    <div class="row g-3">
+
+                        <!-- IMAGEN 1 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Logo del semillero Tangamandapio.png" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg1">
+
+                            <div class="modal fade" id="modalImg1">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Logo del semillero Tangamandapio.png" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 2 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Equipo de desarrollo en acción.png" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg2">
+
+                            <div class="modal fade" id="modalImg2">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Equipo de desarrollo en acción.png" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 3 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Colaboración y aprendizaje en programación.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg3">
+
+                            <div class="modal fade" id="modalImg3">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Colaboración y aprendizaje en programación.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 4 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Misión de innovación y colaboración tecnológica.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg4">
+
+                            <div class="modal fade" id="modalImg4">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Misión de innovación y colaboración tecnológica.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="row justify-content-center mb-4">
+
+                    <!-- GRID DE IMÁGENES -->
+                    <div class="row g-3">
+
+                        <!-- IMAGEN 5 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Objetivos de programación en acción.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg5">
+
+                            <div class="modal fade" id="modalImg5">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Objetivos de programación en acción.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 6 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Colaboración en inteligencia artificial y ciberseguridad.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg6">
+
+                            <div class="modal fade" id="modalImg6">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Colaboración en inteligencia artificial y ciberseguridad.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 7 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Taller de programación en acción.png" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg7">
+
+                            <div class="modal fade" id="modalImg7">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Taller de programación en acción.png" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 8 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Hackathon colaborativo Tangamandapapio 2026.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg8">
+
+                            <div class="modal fade" id="modalImg8">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Hackathon colaborativo Tangamandapapio 2026.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="row justify-content-center mb-4">
+                    <!-- GRID DE IMÁGENES -->
+                    <div class="row g-3">
+
+                        <!-- IMAGEN 9 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Curso de desarrollo web en acción.png" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg9">
+
+                            <div class="modal fade" id="modalImg9">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Curso de desarrollo web en acción.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 10 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Charla sobre inteligencia artificial.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg10">
+
+                            <div class="modal fade" id="modalImg10">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Charla sobre inteligencia artificial.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 11 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Taller de ciberseguridad básica en acción.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg11">
+
+                            <div class="modal fade" id="modalImg11">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Taller de ciberseguridad básica en acción.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 12 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Taller de lógica y algoritmos.png" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg12">
+
+                            <div class="modal fade" id="modalImg12">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Taller de lógica y algoritmos.png" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="row justify-content-center mb-4">
+
+                    <!-- GRID DE IMÁGENES -->
+                    <div class="row g-3">
+
+                        <!-- IMAGEN 13 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Feria de proyectos tecnológicos 2026.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg13">
+
+                            <div class="modal fade" id="modalImg13">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Feria de proyectos tecnológicos 2026.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 14 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Camilo.jpg" class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg14">
+
+                            <div class="modal fade" id="modalImg14">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Camilo.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 15 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/David.jpg" class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg15">
+
+                            <div class="modal fade" id="modalImg15">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/David.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 16 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Esteban.jpg" class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg16">
+
+                            <div class="modal fade" id="modalImg16">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Esteban.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <section class="row justify-content-center mb-4">
+
+                    <!-- GRID DE IMÁGENES -->
+                    <div class="row g-3">
+
+                        <!-- IMAGEN 17 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Danna.jpg" class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg17">
+
+                            <div class="modal fade" id="modalImg17">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Danna.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 18 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Interfaz moderna del sistema de gestión.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg18">
+
+                            <div class="modal fade" id="modalImg18">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Interfaz moderna del sistema de gestión.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 19 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Flujo de modelo de IA en acción.png" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg19">
+
+                            <div class="modal fade" id="modalImg19">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Flujo de modelo de IA en acción.png" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 20 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/Simulación de ciberseguridad en laboratorio.png"
+                                class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg20">
+
+                            <div class="modal fade" id="modalImg20">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/Simulación de ciberseguridad en laboratorio.png"
+                                            class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section class="row justify-content-center mb-4">
+                    <!-- GRID DE IMÁGENES -->
+                    <div class="row g-3">
+
+                        <!-- IMAGEN 21 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/MrV.jpg" class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg21">
+
+                            <div class="modal fade" id="modalImg21">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0 animate_jello">
+                                        <img src="./img/MrV.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 22 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/MujerContexto.jpg" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg22">
+
+                            <div class="modal fade" id="modalImg22">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/MujerContexto.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 23 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/HombreContexto.jpg" class="img-fluid rounded gallery-img"
+                                data-bs-toggle="modal" data-bs-target="#modalImg23">
+
+                            <div class="modal fade" id="modalImg23">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/HombreContexto.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- IMAGEN 24 -->
+                        <div class="col-6 col-md-4 col-lg-3">
+                            <img src="./img/MujerSUS.jpg" class="img-fluid rounded gallery-img" data-bs-toggle="modal"
+                                data-bs-target="#modalImg24">
+
+                            <div class="modal fade" id="modalImg24">
+                                <div class="modal-dialog modal-dialog-centered modal-lg">
+                                    <div class="modal-content bg-transparent border-0">
+                                        <img src="./img/MujerSUS.jpg" class="img-fluid rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+    </div>
+
+    <footer class="container-fluid p-0 text-center">
+        <div class="row m-0">
+            <div class="col-12 d-flex justify-content-center align-items-center colorfooter">
+
+                <i class="Redes p-3">
+                    <a class="bi bi-whatsapp p-2 text-success" href="https://www.whatsapp.com/?lang=es">
+                        WhatsApp</a>
+                    <a class="bi bi-facebook p-2 text-primary" href="https://www.facebook.com/?lang=es">
+                        Facebook</a>
+                    <a class="bi bi-instagram p-2 text-danger" href="https://www.instagram.com/?lang=es">
+                        Instagram</a>
+                </i>
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="col-12 d-flex justify-content-center align-items-center p-0 m-0">
+        © 2026 Semillero Tangamandapio. Todos los Derechos de Autor Reservados. Diseñado por Andres Camilo Araque
+        Suarez
+    </div>
+
+    <script src="./JS/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+</body>
+
+</html>
